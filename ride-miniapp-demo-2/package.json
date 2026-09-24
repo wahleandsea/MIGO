@@ -1,0 +1,23 @@
+{
+  "name": "milan-ride-miniapp-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一个连接 Aiven PostgreSQL 的打车小程序练手项目",
+  "scripts": {
+    "approve-driver": "node scripts/approve-driver.js",
+    "build": "node scripts/build-standalone.js",
+    "db:check": "node scripts/check-db.js",
+    "db:migrate": "node scripts/migrate.js",
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node scripts/run-tests.js",
+    "test:db": "node scripts/run-tests.js --db"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3"
+  }
+}
