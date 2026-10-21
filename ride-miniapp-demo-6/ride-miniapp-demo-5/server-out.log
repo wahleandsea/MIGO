@@ -1,0 +1,2 @@
+Milano Ride is running at http://localhost:5173
+MongoDB：已配置 MONGO_URI，启动后将使用 MongoDB Atlas（需要登录）。
