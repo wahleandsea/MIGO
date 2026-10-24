@@ -1,1 +1,0 @@
-OK 524ms db=milano_ride collections=8 size=0MB
